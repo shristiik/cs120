@@ -1,0 +1,26 @@
+Pseudocode
+__init__(self, name, hitPoints, hitChance, maxDamage, armor): Firstly initialize a character with given attributes.
+testInt(self, value, min, max, default) Then Helper method to validate an integer value.
+printStats(self): To print the character's stats.
+hit(self, opponent): Method to perform an attack on the opponent.
+fight Function
+Define the fight function:
+Parameters:
+character1: The first character.
+character2: The second character.
+Behavior:
+Print the initial stats of both characters.
+Use a loop to continue rounds until one character's hitPoints are zero or less.
+In each round:
+Prompt the user to press Enter to proceed.
+Both characters attempt to hit each other.
+Print the result of each attack.
+Check if either character's hitPoints are zero or less and declare the winner.
+main Function
+Define the main function:
+Behavior:
+Create two Character instances: hero and monster.
+Print the stats of both characters.
+Call the fight function with the hero and monster
+
+
